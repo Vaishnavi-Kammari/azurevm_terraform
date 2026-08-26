@@ -1,8 +1,3 @@
-####################################################
-# Terraform + Provider setup
-# Keeping this simple - just azurerm, nothing fancy
-####################################################
-
 terraform {
   required_version = ">= 1.3.0"
 

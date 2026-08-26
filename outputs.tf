@@ -1,7 +1,3 @@
-####################################################
-# Root outputs - handy info printed after terraform apply
-####################################################
-
 output "resource_group_name" {
   description = "Name of the created resource group"
   value       = module.resource_group.name

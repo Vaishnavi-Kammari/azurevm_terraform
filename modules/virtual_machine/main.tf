@@ -1,10 +1,3 @@
-####################################################
-# Virtual Machine module
-# Creates the basic networking a VM needs (vnet, subnet,
-# public ip, nic, nsg) and then the VM itself.
-# Kept as simple as possible - one VM, one NIC, one disk.
-####################################################
-
 resource "azurerm_virtual_network" "test_vnet" {
   name                = "test-vnet"
   address_space       = var.vnet_address_space
@@ -76,8 +69,7 @@ resource "azurerm_linux_virtual_machine" "test_vm" {
   admin_username      = var.admin_username
   admin_password      = var.admin_password
 
-  # password auth is fine for a "test" setup, but for real
-  # production workloads switch this to SSH keys instead
+
   disable_password_authentication = false
 
   network_interface_ids = [

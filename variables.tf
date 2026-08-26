@@ -1,8 +1,3 @@
-####################################################
-# Root level variables
-# Change values in terraform.tfvars, not here
-####################################################
-
 variable "location" {
   description = "Azure region where everything will be created"
   type        = string

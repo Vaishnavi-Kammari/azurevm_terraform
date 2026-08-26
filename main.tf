@@ -1,9 +1,3 @@
-####################################################
-# Root main.tf
-# Just wires up the two modules - resource group first,
-# then the VM (and its networking) inside that group
-####################################################
-
 module "resource_group" {
   source = "./modules/resource_group"
 

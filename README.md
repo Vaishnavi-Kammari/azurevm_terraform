@@ -49,10 +49,10 @@ terraform-azure-vm/
 
 ## How to use it
 
-1. Copy the example variables file and update it with your own values:
+1. Update it with your own values:
 
    ```bash
-   cp terraform.tfvars.example terraform.tfvars
+   terraform.tfvars
    ```
 
    At minimum, set a strong `admin_password`.

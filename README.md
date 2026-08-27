@@ -1,3 +1,9 @@
+## Azure VM Deployment
+
+The following screenshot shows the successfully created Azure VM:
+
+![Azure VM](images/vm-screenshot.png)
+
 # Terraform Azure VM Setup
 
 Simple, modularized Terraform project that creates:
